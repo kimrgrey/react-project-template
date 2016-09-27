@@ -14,14 +14,12 @@ const closeSideBar = (state) => ({
   open: false
 });
 
-const locationChange = (state, action) => {
-  return {
-    ...state,
-    open: false
-  }
-};
+const locationChange = (state) => ({
+  ...state,
+  open: false
+});
 
-const routerReducer = composeReducer("@@router", {
+const routerReducer = composeReducer('@@router', {
   'LOCATION_CHANGE': locationChange
 });
 

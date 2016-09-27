@@ -14,6 +14,7 @@
   },
   "rules": {
     "max-len": 0,
-    "comma-dangle": ["error", "only-multiline"]
+    "comma-dangle": ["error", "only-multiline"],
+    "quote-props": "off"
   }
 }
