@@ -1,0 +1,19 @@
+{
+  "parser": "babel-eslint",
+  "settings": {
+    "import/resolver": {
+      "webpack": {
+        "config": "webpack.config.babel.js"
+      }
+    }
+  },
+  "extends": "airbnb",
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "rules": {
+    "max-len": 0,
+    "comma-dangle": ["error", "only-multiline"]
+  }
+}
